@@ -1,4 +1,3 @@
-// Imports
 import React from 'react'
 import {Route, Switch} from 'react-router-dom'
 
@@ -15,7 +14,6 @@ import ThoughtsView from './thoughts/View'
 const App = () => (
   <Layout>
     <Switch>
-      {/* Common */}
       <Route path={routes.home} component={Home} exact/>
       <Route path={routes.about} component={About}/>
 
