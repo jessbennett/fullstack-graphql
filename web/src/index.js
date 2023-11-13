@@ -9,13 +9,13 @@ import { store } from './store'
 import App from './components/App'
 
 // Render App
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById("root")
 
 ReactDOM.render(
   <Provider store={store}>
     <Router>
       <App/>
     </Router>
-  </Provider>,
+  </Provider>
 
-)
+);
